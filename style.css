@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 5%;
+  padding: 10px;
+  /* gap: 25px; */
+}
+nav img {
+  margin-right: 36px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 7px;
+  /* height: max-content; */
+  padding: 10px;
+  /* margin: 10px; */
+  width: 380px;
+}
+.search input {
+  border: none;
+  /* background-color: ; */
+  width: 350px;
+  font-size: 16px;
+  color: rgb(53, 53, 67);
+  font-weight: 400;
+  line-height: 20px;
+  /* margin-right: 25px; */
+}
+.search span {
+  color: rgb(139, 139, 163);
+}
+.download {
+  display: flex;
+  align-items: center;
+  margin: 0px 34px;
+  height: 100%;
+  width: 100px;
+}
+.download .download-app {
+  width: 80px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  /* line-height: 1.5; */
+  text-align: left;
+}
+.links {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.sticks {
+  height: 40px;
+  width: 2px;
+  background-color: darkgray;
+  /* margin: 20px; */
+}
+.supplier {
+  width: 80px;
+  margin: 0px 34px;
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 24px;
+}
+.catogeries {
+  height: 52px;
+  width: 100vw;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+.catogeries ul li {
+  list-style: none;
+  /* color: red; */
+  font-weight: 400;
+}
+.catogeries ul {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+a {
+  text-decoration: none;
+  color: rgb(53, 53, 67);
+}
+.container {
+  border: 2px solid;
+  height: 40vh;
+  width: 90vw;
+  margin: auto;
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+}
+
+.information {
+  width: 55%;
+  height: 100%;
+  background-color: rgb(233, 249, 255);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.heading-prices {
+  margin: 40px 0px 0px 55px;
+}
+.heading-prices span {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: fit-content;
+  /* border: 2px solid; */
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 0px 0px 0px 55px;
+}
+.freedelivery {
+  display: flex;
+  /* align-items: center; */
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+.block {
+  height: 25px;
+  border: 1px solid black;
+}
+.cashondelivery {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  gap: 10px;
+}
+.easyreturn {
+  display: flex;
+  align-items: center;
+  margin: 0px 10px;
+  gap: 10px;
+}
+.icons img {
+  border: 0.25px solid lightgrey;
+  border-radius: 29px;
+}
+.download {
+  position: relative;
+}
+.app button {
+  height: 50px;
+  width: fit-content;
+  display: flex;
+  /* gap: 2px; */
+  align-items: center;
+  border: 2px solid;
+  margin: 0px 0 0px 55px;
+  border-radius: 6px;
+  background-color: rgb(159, 32, 137);
+  color: white;
+  color: white;
+  padding: 0px 10px;
+}
+.app button span {
+  display: block;
+  width: 225px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.app button img {
+  padding: 0px 0px 0px 20px;
+}
+.discount img {
+  position: absolute;
+  right: 0;
+}
+.topcatogeriestitle {
+  display: flex;
+  width: 100%;
+  /* border: 1px solid; */
+  align-items: center;
+  justify-content: center;
+  gap: 47px;
+  margin: 50px 0px;
+}
+.hrzntl-line {
+  border: 0.5px;
+  background: rgb(217, 166, 208);
+  width: 22%;
+  height: 2px;
+}
+.topcatogeriestitle span {
+  color: rgb(53, 53, 67);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+.top-catogeries-images {
+  height: 550px;
+  width: 90vw;
+  background-color: purple;
+  margin: auto;
+  position: relative;
+}
+.small-posters {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+}
+.flexcontainer {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 70px;
+  left: 40px;
+}
+.text-fashion {
+  display: block;
+  width: fit-content;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: cursive;
+  color: white;
+  position: absolute;
+  right: 5px;
+}
+.essentials {
+  height: 550px;
+  width: 90vw;
+  /* border: 2px solid; */
+  margin: auto;
+  background-image: url(https://images.meesho.com/images/marketing/1704720392370_1200.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 55px;
+  margin-bottom: 55px;
+  position: relative;
+}
+.products {
+  display: flex;
+  gap: 25px;
+  position: absolute;
+  right: 105px;
+  top: 80px;
+}
+.first-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.view {
+  position: absolute;
+  top: 250px;
+  left: 108px;
+}
+.styles {
+  height: 550px;
+  width: 90vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 55px; */
+  position: relative;
+  margin: auto;
+  background-image: url(https://images.meesho.com/images/marketing/1704720694167_1200.webp);
+}
+.third-product {
+  display: flex;
+  flex-direction: column;
+}
+.download-app {
+  background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop_1050.webp);
+  background-size: contain;
+  width: 90vw;
+  height: 550px;
+  margin: auto;
+  margin-top: 55px;
+  position: relative;
+}
+
+.download-app > div{
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  l
+}
+.member span{
+  font-size: 34px;
+  color: rgb(60, 60, 255);
+}
+.member-heading .one{
+  font-size: 42px;
+  font-weight: 600;
+  color: rgb(159, 32, 137);;
+}
+.download-button{
+  display: flex;
+  gap: 15px;
+
+}
+.button-1 button{
+  padding: 7px 25px 7px 25px;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  background-color: black;
+  width: fit-content;
+  height: 50px;
+}
+.button-1 button span{
+  display: block;
+  font-size: 18px;
+  text-align: left;
+
+}
+.button-1 button .child-1{
+  font-size: 10px;
+  text-align: left;
+}
+.button-1 button .child-2{
+  font-size: 12px;
+  text-align: left;
+}
+
